@@ -106,7 +106,7 @@ Heroku assumes a set of npm scripts to be available, so we have to alter our `pa
 ```js
 "build": "quasar build",
 "start": "node server.js",
-"heroku-postbuild": "yarn && yarn build"
+"heroku-postbuild": "yarn && yarn run build"
 ```
 
 Now it is time to create an app on Heroku by running:
