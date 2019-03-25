@@ -116,7 +116,7 @@ $ heroku create
 
 and deploy to Heroku using:
 ```bash
-$ heroku deploy
+$ git push heroku master
 ```
 
 ## Deploying with Surge
